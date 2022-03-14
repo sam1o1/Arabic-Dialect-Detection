@@ -12,7 +12,6 @@
 ## Project Overview 
 **This project includes the implementation of the Arabic dialect classification using machine and deep learning models. The implementation included data gathering, text preprocessing, model training, evaluation, and local deployment.**
 
-This project is an
 
 Here is a gif of the DL Model. 
 
