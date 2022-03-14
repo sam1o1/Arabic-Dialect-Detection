@@ -6,7 +6,7 @@
  -  [Installation](#installation)
  - [File Descriptions](#files)
  - [Get Started](#get_start)
- - [Licensing  and Authors](#L&A)
+
   
 <a name="overview"></a>
 ## Project Overview 
@@ -17,7 +17,7 @@ This project is an
 Here is a gif of the DL Model. 
 
 <p align="center">
-  <img src= alt="Sublime's custom image"/>
+  <img src="https://github.com/sam1o1/Arabic-Dialect-Detection/blob/main/DL%20Deployment/Demo.gif?raw=true" alt="Sublime's custom image"/>
 </p>
 
 <a name="installation"></a>
@@ -62,27 +62,24 @@ The Repository includes five Folders that contains the project files and some of
  <a name="get_start"></a>
 Use the following command to download the files : 
 
-    git clone https://github.com/sam1o1/Capital_Population_Chatbot
+    git clone https://github.com/sam1o1/Arabic-Dialect-Detection.git
 
- Go to the directory where you saved this repo using anaconda prompt 
+ Go to the directory where you saved this repo using command prompt 
  
     cd [directory path]
+    
+ to run the deep learning model or Machine learning, 
+ 
+    cd [DL Deployment or ML Deployment ] 
+    
+
+ 
  Then, write the following command:
  
 
-    rasa run actions 
-The above step is essential in order to run the custom action saved in `actions.py`. So please ***Do NOT FORGET IT*** 
-Afterward, Open another anaconda prompt window without the closing the current one and write the following:
+    python app.py
+    
 
-       cd [directory path]
-       rasa shell 
-Finally, you will be able to talk to the bot using the command prompt like the gif above. 
-if you want to modify this project and add extra functions, you need to train it again using the below commands:
-
-    rasa train 
-and after that repeat the above steps. 
-<a name="finding"></a>
-<a name="L&A"></a>
 ## Licensing and Authors
 
 Author : Eslam Abdelghany
